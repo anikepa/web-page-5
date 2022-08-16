@@ -1,0 +1,330 @@
+* {
+    font-weight: 700;
+    font-family: gilroy;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.img-box {
+    background-image: url(./freestocks-8a95EVm0ovQ-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left {
+    height: 100vh;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.073);
+}
+
+.l-top {
+    gap: 1vw;
+    padding: 2vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-top h1 {
+    font-size: 2vw;
+}
+
+.l-profile {
+    padding: 4vh 0;
+    gap: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.l-profile .img-box {
+    width: 89px;
+    height: 89px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.l-profile h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2vw;
+    font-size: 2vw;
+}
+
+.l-profile p {
+    font-size: 1vw;
+
+}
+
+.dets {
+    text-align: center;
+    padding: 0 3vw;
+    gap: 1vw;
+    display: flex;
+}
+
+.dets h1 {
+    font-size: 1vw;
+}
+
+.dets .d1 {}
+
+.dets-opa {
+    margin-top: 1vh;
+    opacity: 0.7;
+}
+
+.l-nav {
+    padding: 2vh 6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.l-nav h1 {
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.logout {
+
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-self:
+        center;
+}
+
+
+
+
+
+
+.right {
+    height: 100vh;
+    padding: 3vh 5vw;
+    width: calc(100vw - 20vw);
+}
+
+.right-nav {
+    align-items: center;
+    gap: 50vw;
+    display: flex;
+}
+
+.right-nav input {
+    border: none;
+    background-color: transparent;
+}
+
+.r-nav-dets {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-self:
+        center;
+}
+
+.r-nav-dets button {
+    padding: 1vh 1vw;
+    width:5VW;
+    background-color:transparent;
+    margin-left: 2VW;
+        border-radius: 4px;
+}
+
+.r-nav2 {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    gap: 60vw;
+
+}
+
+.r-nav2>h1 {
+    font-size: 2vw;
+}
+
+.r-nav2-dets {
+    display: flex;
+    align-items: center;
+}
+
+.r-nav2-dets h1 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.stories {
+    overflow-x: scroll;
+    gap: 2vw;
+    display: flex;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.stories-box {
+    padding: 4px;
+    margin-top: 2vh;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.stories-box2 {
+    width: 60px;
+    height: 60px;
+}
+
+.feed {
+    margin-top: 2vh;
+    font-size: 2vw;
+    margin-bottom: 2vh;
+}
+
+.box1 {
+    margin-bottom: 3vh;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 2px;
+    background-color: red;
+    background-image: url(./);
+    background-size: cover;
+    background-position: center;
+}
+
+.m-b-dets {
+    gap: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.dets2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.m-b-dets h4 {
+    font-size: 1vw;
+}
+
+.m-b-dets h1 {
+    font-size: 1.5vw;
+}
+
+.box21 {
+    width: 20vw;
+    height: 60vh;
+    background-color: red;
+}
+
+.man-box {
+    display: flex;
+    gap: 4VW;
+}
+
+.box4 {
+    height: 20vh;
+    width: 60vh;
+    background-color: red;
+}
+
+#b4 {
+    margin-top: 2vh;
+    gap: 50vh;
+}
+
+.box1:nth-child(1) {
+    background-image: url(./download\ \(1\).jfif);
+}
+
+.mb3 .cont .box1 {
+    background-image: url(./download\ \(3\).jfif);
+}
+
+.mb4 .cont .box1 {
+    background-image: url(./download\ \(5\).jfif);
+}
+
+.stories-box:nth-child(1) {
+    background-image: url(./download.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.stories-box:nth-child(2) {
+    background-image: url(./download\ \(1\).jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.stories-box:nth-child(3) {
+    background-image: url("./download\ \(3\).jfif ");
+ background-size:cover;
+    background-position: center;
+}
+
+.stories-box:nth-child(4) {
+    background-image: url("./download\ \(4\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(5) {
+    background-image: url("./download\ \(5\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(6) {
+    background-image: url("./download\ \(6\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(7) {
+    background-image: url("./download\ \(7\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(8) {
+    background-image: url("./download\ \(1\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(9) {
+    background-image: url("./download\ \(5\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(10) {
+    background-image: url("./download\ \(7\).jfif");
+ background-size:cover;
+    background-position: center;
+}
+.stories-box:nth-child(11) {
+    background-image: url("./download\ \(5\).jfif");
+ background-size:cover;
+    background-position: center;
+
+}
+
